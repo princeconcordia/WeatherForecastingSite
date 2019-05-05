@@ -1,0 +1,118 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body
+{
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  background: #2196f3;;
+}
+
+div.widget
+{
+  position: relative;
+  width: 480px;
+  height: 280px;
+  margin: 150px auto;
+  background-color: #fcfdfd;
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 30px;
+  box-shadow: 0px 31px 35px -26px #080c21;
+}
+
+div.left-panel
+{
+  
+}
+
+p.date
+{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.5);
+}
+
+p.city
+{
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5px;
+  color: #2196f3;
+}
+
+.list
+{
+  margin-bottom: 8px;
+}
+
+.txt_blue
+{
+  color: #2196f3;
+}
+
+div.temp
+{
+  font-size: 40px;
+  margin-left: 16px;
+  padding: 16px;
+  color: #333333;
+  font-weight: 100;
+}
+
+div.humidity
+{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.5);
+}
+
+div.panel
+{
+  display: inline-block;
+}
+
+div.right-panel
+{
+  float: right;
+  top: 0;
+  margin-top: 35px;
+  padding-left: 10px;
+}
+
+div.bottom-panel
+{
+  float: left;
+  top: 0;
+  margin-top: 35px;
+  padding-left: 10px;
+  clear: both;
+}
+
+div.selection
+{
+  position: relative;
+  top: 0;
+  margin-top: -75px;
+  margin-left: 420px;
+  clear: both;
+}
+
+.btn_city
+{
+  padding-right: 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+a:hover  {
+    text-decoration: none;
+    color: #e5e5e5;
+}

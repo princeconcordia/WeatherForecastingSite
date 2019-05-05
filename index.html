@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather App</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="widget">
+            
+            <div class="left-panel panel">
+                <div class="main">
+                    <p id="datetime" class="date"></p>
+                    <p id="city" class="city "></p>
+                </div>
+                <div id="temp" class="temp">
+                </div>
+            </div>
+
+            <div class="right-panel panel">
+                <img id="weather_image" src="img/sun_cloud.png" alt="" width="150">
+            </div>
+
+            <div class="bottom-panel panel">
+                <div class="humidity">
+                <p class="list">Humidity: <span id="humidity" class="txt_blue">00</span></p>
+                <p class="list">Wind: <span id="wind" class="txt_blue">00</span><span class="txt_blue">km/hr</span></p>
+            </div>
+            </div>
+
+    </div>
+
+    <div class="selection">
+        <a id="btn_Tokyo" href="#Tokyo" class="btn_city">Tokyo</a>
+        <a id="btn_Yokohama" href="#Yokohama" class="btn_city">Yokohama</a>
+        <a id="btn_Kyoto" href="#Kyoto" class="btn_city">Kyoto</a>
+        <a id="btn_Osaka" href="#Osaka" class="btn_city">Osaka</a>
+        <a id="btn_Sapporo" href="#Sapporo" class="btn_city">Sapporo</a>
+        <a id="btn_Nagoya" href="#Nagoya" class="btn_city">Nagoya</a>
+    </div>
+
+</body>
+</html>
